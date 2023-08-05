@@ -1,0 +1,83 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.time {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.domain-logo-container {
+  display: flex;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.domain-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+.title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 30px;
+}
+
+.domain-url {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+}
+
+.delete-icon {
+  width: 25px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .list-item {
+    flex-direction: row;
+  }
+  .content-container {
+    align-items: center;
+  }
+  .domain-logo-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+  .domain-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .domain-url {
+    margin-top: 20px;
+  }
+}
